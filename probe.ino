@@ -22,11 +22,11 @@ TempAndHumidity dhtData;
 //Déclaration du SSID et du mot de passe WIFI
 // Une fois connecté Le hotspot est accessible via l'adresse 192.168.4.1
 const String WIFI_SSID = "ESP8266";
-const char WIFI_PASSWORD[] = "123";
+const char WIFI_PASSWORD[] = "12345678";
 //Variables contenant les ID wifi finaux (ceux du réseau courant)
-String ssid = "";
-String password = "";
-String host = "";
+String ssid;
+String password;
+String host;
 
 //PIN du boutton poussoir reset
 const int BUTTON = 4;
